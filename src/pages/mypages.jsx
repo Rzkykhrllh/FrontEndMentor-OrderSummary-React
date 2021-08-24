@@ -10,7 +10,7 @@ function mypages() {
         <selection>
             <div className="myContainer d-flex">
                 <div className="card" >
-                    <img src={Hero} className="card-img-top"></img>
+                    <img src={Hero} className="card-img-top" alt="herogambar"></img>
                     <div className="card-body">
                         <h5 className="card-title">Order Summary</h5>
                         <p className="card-text">You can now listen to millions of songs, audiobooks, and podcast on any device anywhere you like!</p>
