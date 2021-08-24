@@ -2,6 +2,7 @@ import React from 'react'
 import "../pages/index.css"
 import Hero from "../images/illustration-hero.svg"
 import Music from "../images/icon-music.svg"
+import { Link } from 'react-router-dom'
 
 
 function mypages() {
@@ -19,16 +20,16 @@ function mypages() {
                                 <p className="substitle">Annual Plan</p>
                                 <p className="subsexp">$59.99/year</p>
                             </div>
-                            <a href="" className="align-self-center flex-fill text-end">Change</a>
+                            <Link to="#" className="align-self-center flex-fill text-end">Change</Link>
                         </div>
 
                         <button className="btn" type="button">
                             Proceed to Payment
                         </button>
 
-                        <a href="" id="cancel" className="d-flex justify-content-center">
+                        <Link to="#" id="cancel" className="d-flex justify-content-center">
                             Cancel Order
-                        </a>
+                        </Link>
 
                     </div>
                 </div>

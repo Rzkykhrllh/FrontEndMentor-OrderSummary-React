@@ -1,10 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
 import Mypages from "./pages/mypages"
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 function App() {
   return (
-    <Mypages />
+    <Router>
+      <Switch>  
+        <Route path="/">
+          <Mypages />
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 
