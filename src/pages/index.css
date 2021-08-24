@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+* {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+}
+
+.myContainer {
+  background-color: #e0e8ff;
+  height: 100vh;
+  width: 100vw;
+}
+
+.card {
+  margin: auto auto;
+
+  height: 700px;
+  width: 450px;
+
+  background: #ffffff;
+  border-radius: 10px;
+
+  border: 0;
+}
+
+.card-img-top {
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+
+.card-body {
+  /* padding: 24px; */
+}
+
+h5 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 29px;
+  line-height: 38px;
+  text-align: center;
+
+  font-weight: 900;
+
+  color: #243653;
+  margin-top: 46px;
+}
+
+p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* background-color: red; */
+
+  margin-top: 22px;
+  padding: 0px 56px;
+
+  color: #76798b;
+}
+
+.subscription {
+  padding: 24px;
+  background: #f8f9fe;
+  border-radius: 10px;
+  margin: 0 30px;
+}
+
+.subscription img {
+  height: 48px;
+  width: 48px;
+}
+
+.subscription p {
+  margin: 0;
+  padding: 0;
+  padding-left: 16px;
+}
+
+.subscription .substitle {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: #2c3151;
+}
+
+.subscription .subsexp {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+
+  color: #515d7c;
+  margin-top: 6px;
+}
+
+.subscription a:hover {
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.card .btn {
+  background: #382ae1;
+  box-shadow: 0px 10px 10px rgba(56, 42, 225, 0.25);
+  border-radius: 10px;
+
+  /* 60 itu dari margin kanan kiri */
+  width: calc(100% - 60px);
+  padding: 18px 0;
+  margin: 0 30px;
+  margin-top: 32px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  color: #ffffff;
+}
+
+.card .btn:hover {
+  background-color: #766cf1;
+}
+
+#cancel {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+
+  letter-spacing: 0.03em;
+
+  margin-top: 28px;
+  color: #727e98;
+}
+
+#cancel:hover {
+  color: #505b72;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+@media screen and (max-width: 576px) {
+  .card {
+    height: 570px;
+    width: 340px;
+
+    /* background-color: navajowhite; */
+  }
+
+  h5 {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  p {
+    margin-top: 26 px;
+
+    line-height: 25px;
+
+    padding: 0px 24px;
+  }
+
+  .subscription {
+    padding: 18px;
+  }
+
+  .subscription p {
+    margin: 0;
+    padding: 0;
+    padding-left: 16px;
+    align-items: flex-start;
+
+    /*  */
+    display: block;
+  }
+
+  .subscription .substitle {
+    font-size: 14px;
+  }
+
+  .subscription .subsexp {
+    font-size: 14px;
+  }
+
+  .subscription a {
+    font-size: 12px;
+  }
+
+  .card .btn {
+    margin-top: 20px;
+  }
+}
